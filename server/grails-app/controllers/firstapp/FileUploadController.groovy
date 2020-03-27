@@ -3,6 +3,7 @@ package firstapp
 
 import grails.rest.*
 import grails.converters.*
+import org.springframework.util.FileCopyUtils
 import org.springframework.web.bind.annotation.RestController
 
 class FileUploadController {
@@ -23,8 +24,12 @@ class FileUploadController {
         println file
         if(!file.empty){
 
-            File newFile = new File( 'E:\\workspace\\FirstApp\\client\\src\\assets\\myImages', file.originalFilename)
-            file.transferTo(newFile)
+            File newFile = new File( "images", file.originalFilename)
+//            println(newFile.getAbsolutePath())
+//            file.transferTo(newFile)// It tries to save to temp file..
+            FileCopyUtils.copy(file.getBytes(), newFile); // given by Spring FrameWork and it works well
+
+
         }
 
         render( [msg:"Rendering Success"] as JSON)
