@@ -1,16 +1,14 @@
 <template>
     <div>
     <h1>Hello World</h1>
-        <input type="text" placeholder="Enter Your Name Here." v-model = "myFirstName"><br><br>
-        <input type="number" v-model = "myAge"><br><br>
-        Select your country
-        <select v-model="selectedValue" multiple>
-        <option >Nepal</option>
-        <option>India</option>
-    </select>
+        <v-text-field label="First Name" placeholder="Enter Your Name Here." v-model = "myFirstName"></v-text-field>
+        <v-text-field label="Age" placeholder="Enter your age." type="number" v-model = "myAge"></v-text-field>
+<!--        Select your country-->
+<!--        <v-select v-model="selectedValue"  :items="countries" multiple>-->
+<!--    </v-select>-->
         <br><br>
-        <input type="file" id="file" ref="file" v-on:change="handleFileUpload()"><br><br>
-    <input type="button" value="Click Me" @click="example">
+        <v-file-input ref="file" v-on:change="handleFileUpload()"></v-file-input><br><br>
+        <v-btn type="button"  @click="example">Click Me</v-btn>
     </div>
 </template>
 
@@ -24,6 +22,7 @@
                 myAge:"",
                 file :"",
                 message: 'Hello World',
+                countries:['Nepal','India','Japan','USA','Australia','China','Dubai'],
                 takeDataFromServer: null,
                 serverURL: 'http://localhost:8085'
             }
@@ -38,7 +37,7 @@
                 let formData = new FormData();
                 formData.append('file', this.file);
                 formData.append('name',myName);
-                formData.append('age',myAge)
+                formData.append('age',myAge);
 
                 paramsMap['name'] = myName;
                 paramsMap['age'] = myAge;
