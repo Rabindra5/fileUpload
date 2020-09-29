@@ -6,10 +6,10 @@ dataSource
         {
          logSql= true
             dbCreate ='create-drop'
-            dbCreate = 'update'
-            url = "jdbc:mysql://localhost:3308/personal_database"
-            username = "root"
-            password = "qbohfoj"
+//            dbCreate = 'update'
+            url = "jdbc:mysql://localhost:3306/personal_database"
+            username = "developer"
+            password = "java1177"
         }
         }
 }

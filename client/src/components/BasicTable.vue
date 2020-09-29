@@ -18,12 +18,16 @@
             </tr>
             </tbody>
         </table>
+        <basic-info :myInfo="myData" basic-id="basiInfo"></basic-info>
     </div>
 
 </template>
 <script>
+    import BasicInfo from "./BasicInfo";
     export default {
-        name: "BasicTable",
+        components:{
+            BasicInfo
+        },
         data() {
             return {
                 rows:[
@@ -33,6 +37,16 @@
                     {id:4,name:"ddd",roll:4,address:"palpa"},
                     {id:5,name:"eee",roll:5,address:"chitwan"},
                     ],
+                myData :{
+                    projectData:
+                        {id: 1, firstName: "eugene", lastName: "lipkovich", email: "eugene@gmail.com", phone: null}
+                    ,
+                    places: ["Kathmandu", "Pokhara", "Chitwan"],
+
+                    Districts: [{id: 1, name: "kathmandu"}, {id: 2, name: "bhaktapur"}, {id: 3, name: "lalitpur"}],
+
+                    Foods: ["Daal", "Vaat", "Tarkari"]
+                }
             }
         },
     }
