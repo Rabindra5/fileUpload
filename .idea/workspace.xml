@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a7d0b42-6526-4a9f-a0fd-e1d9fe2dae34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ElintegroMultipleImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ElintegroMultipleImage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/PhotoTaken.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/PhotoTaken.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fileUpload" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fileUpload" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fileUpload" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="fileUpload" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aFaYqZs3xpq7NuleZqmwkiJn6c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="true" />
+    <property name="grails.last.selected.app.url" value="file://$PROJECT_DIR$/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/dist" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\fileUpload\client\src\router" />
+      <recent name="E:\workspace\fileUpload\client\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\fileUpload\client\dist" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="fileUpload [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Grails: server" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="$PROJECT_DIR$/server" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.fileUpload [bootRun]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a7d0b42-6526-4a9f-a0fd-e1d9fe2dae34" name="Default Changelist" comment="" />
+      <created>1586333845720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586333845720</updated>
+      <workItem from="1586333847275" duration="2378000" />
+      <workItem from="1586402901063" duration="2399000" />
+      <workItem from="1586428530195" duration="1525000" />
+      <workItem from="1588231598490" duration="9960000" />
+      <workItem from="1588297732203" duration="801000" />
+      <workItem from="1588413824578" duration="743000" />
+      <workItem from="1591157824758" duration="735000" />
+      <workItem from="1592285409559" duration="3995000" />
+      <workItem from="1592292926554" duration="1198000" />
+      <workItem from="1595329587413" duration="2671000" />
+      <workItem from="1600691329559" duration="5842000" />
+      <workItem from="1600739903950" duration="33038000" />
+      <workItem from="1600914203476" duration="20016000" />
+      <workItem from="1601000506601" duration="11451000" />
+      <workItem from="1601361020470" duration="22593000" />
+      <workItem from="1601433901237" duration="12498000" />
+      <workItem from="1601518346573" duration="1392000" />
+      <workItem from="1604632451016" duration="1458000" />
+      <workItem from="1604892342892" duration="6476000" />
+      <workItem from="1606826690126" duration="299000" />
+    </task>
+    <task id="LOCAL-00001" summary="tried camera implementation...">
+      <created>1601376495358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601376495358</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TraitInjectorService">
+    <option name="state">
+      <map>
+        <entry key="fileUpload.server.main">
+          <value>
+            <StateHolder>
+              <option name="knownFactories">
+                <list>
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/4.0.2/d009b5b93dde3d447119b37ee49d1957da0c749b/grails-plugin-services-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/converters/4.0.0/e364097f5e6f78fd102519c162442f4eeb0a5f42/converters-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/4.0.2/9b4faa131aff4cf13042891b001eb4e56c8e40c4/grails-core-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/7.0.3.RELEASE/2d4d9c0a9112ad9b10f77dee3a3a42b6b200189d/grails-datastore-gorm-support-7.0.3.RELEASE.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/7.0.2/af3834c0ec730bdac7972c907fe450d9eb08a193/hibernate5-7.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/4.0.2/db150e17d45f60dbe6ca7316ea05e1e69daa851d/grails-plugin-rest-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/4.0.2/858d80bb69bba5a2853ceae813e4e91c2b530cb4/grails-web-common-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/4.0.2/e52477c16745e980cc1d59d6d9b2db8f71a3ff1d/grails-plugin-codecs-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/4.0.2/4a7eb7447cf05613313e8458c0bf67205e1ce9d6/grails-web-url-mappings-4.0.2.jar!/META-INF/services/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/4.0.2/4a7eb7447cf05613313e8458c0bf67205e1ce9d6/grails-web-url-mappings-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/4.0.0/f21eccfb941aa0eda840e40ec2e9a57a8aa99271/grails-web-taglib-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/4.0.2/7173b5e4d8052de4f8349f97a67ffe0ac6e00de8/grails-web-databinding-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/4.0.2/417f8d529db49ec7a3859771da41fafd91aedd0b/grails-web-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/4.0.2/e7c121ab08072125bc51ef09fd7ce0629882f2a4/grails-plugin-interceptors-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/4.0.2/9d0cd0026db3ed7b015730e99cda666af275f1e/grails-plugin-domain-class-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/4.0.2/d01745681996a4b59eb0d48e7a5643c82a590779/grails-plugin-controllers-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/4.0.0/a187924c7e7011e12640b26f896135129f08e57e/grails-taglib-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-validation/4.0.2/657be427510dc6428fcd9c49b90de4a27247314/grails-plugin-validation-4.0.2.jar!/META-INF/grails.factories" />
+                </list>
+              </option>
+              <option name="traits">
+                <map>
+                  <entry key="Controller">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Controller" />
+                        <option value="grails.artefact.controller.RestResponder" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Domain">
+                    <value>
+                      <list>
+                        <option value="grails.web.databinding.WebDataBinding" />
+                        <option value="grails.artefact.DomainClass" />
+                        <option value="grails.gorm.Entity" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Interceptor">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Interceptor" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLib">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLibrary">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </StateHolder>
+          </value>
+        </entry>
+        <entry key="fileUpload.server.test">
+          <value>
+            <StateHolder>
+              <option name="knownFactories">
+                <list>
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-services/4.0.2/d009b5b93dde3d447119b37ee49d1957da0c749b/grails-plugin-services-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/converters/4.0.0/e364097f5e6f78fd102519c162442f4eeb0a5f42/converters-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-core/4.0.2/9b4faa131aff4cf13042891b001eb4e56c8e40c4/grails-core-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-gorm-support/7.0.3.RELEASE/2d4d9c0a9112ad9b10f77dee3a3a42b6b200189d/grails-datastore-gorm-support-7.0.3.RELEASE.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/hibernate5/7.0.2/af3834c0ec730bdac7972c907fe450d9eb08a193/hibernate5-7.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-rest/4.0.2/db150e17d45f60dbe6ca7316ea05e1e69daa851d/grails-plugin-rest-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-common/4.0.2/858d80bb69bba5a2853ceae813e4e91c2b530cb4/grails-web-common-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/gsp/4.0.0/88a3db6f69000a0e26c38aead84142ad49ba147d/gsp-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-codecs/4.0.2/e52477c16745e980cc1d59d6d9b2db8f71a3ff1d/grails-plugin-codecs-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/4.0.2/4a7eb7447cf05613313e8458c0bf67205e1ce9d6/grails-web-url-mappings-4.0.2.jar!/META-INF/services/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-url-mappings/4.0.2/4a7eb7447cf05613313e8458c0bf67205e1ce9d6/grails-web-url-mappings-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-taglib/4.0.0/f21eccfb941aa0eda840e40ec2e9a57a8aa99271/grails-web-taglib-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web-databinding/4.0.2/7173b5e4d8052de4f8349f97a67ffe0ac6e00de8/grails-web-databinding-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-web/4.0.2/417f8d529db49ec7a3859771da41fafd91aedd0b/grails-web-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-interceptors/4.0.2/e7c121ab08072125bc51ef09fd7ce0629882f2a4/grails-plugin-interceptors-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-domain-class/4.0.2/9d0cd0026db3ed7b015730e99cda666af275f1e/grails-plugin-domain-class-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-controllers/4.0.2/d01745681996a4b59eb0d48e7a5643c82a590779/grails-plugin-controllers-4.0.2.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-taglib/4.0.0/a187924c7e7011e12640b26f896135129f08e57e/grails-taglib-4.0.0.jar!/META-INF/grails.factories" />
+                  <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-plugin-validation/4.0.2/657be427510dc6428fcd9c49b90de4a27247314/grails-plugin-validation-4.0.2.jar!/META-INF/grails.factories" />
+                </list>
+              </option>
+              <option name="traits">
+                <map>
+                  <entry key="Controller">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Controller" />
+                        <option value="grails.artefact.gsp.TagLibraryInvoker" />
+                        <option value="grails.artefact.controller.RestResponder" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Domain">
+                    <value>
+                      <list>
+                        <option value="grails.web.databinding.WebDataBinding" />
+                        <option value="grails.artefact.DomainClass" />
+                        <option value="grails.gorm.Entity" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="Interceptor">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.Interceptor" />
+                        <option value="org.grails.compiler.web.converters.RenderConverterTrait" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLib">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="TagLibrary">
+                    <value>
+                      <list>
+                        <option value="grails.artefact.TagLibrary" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </StateHolder>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tried camera implementation..." />
+    <option name="LAST_COMMIT_MESSAGE" value="tried camera implementation..." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1600696711736">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1600696711736" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601439950135">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601439950135" />
+    <state x="370" y="0" key="CommitChangelistDialog2" timestamp="1601376491231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601376491231" />
+    <state x="548" y="166" key="FileChooserDialogImpl" timestamp="1600925764568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600925764568" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1600941473940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600941473940" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1600941473939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600941473939" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1600941473939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600941473939" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1600941473940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600941473940" />
+    <state x="508" y="115" key="RollbackChangesDialog" timestamp="1600695409546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600695409546" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601376498479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601376498479" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601390331794">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601390331794" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604909311798">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604909311798" />
+  </component>
+</project>

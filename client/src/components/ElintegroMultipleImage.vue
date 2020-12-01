@@ -11,12 +11,11 @@
       @drop="preventEvent"
   >
     <div class="photoUploadAndCamera">
-      <v-flex class="d-none d-md-block">
         <div id="cameraButton" class="web-camera-container">
           <div class="camera-button">
-            <button type="button" class="button is-rounded" style="margin-bottom: -6px;" :class="{ 'is-primary' : !isCameraOpen, 'is-danger' : isCameraOpen}" @click="toggleCamera">
-              <span v-if="!isCameraOpen" ><v-icon>mdi-camera</v-icon></span>
-              <span v-else><v-icon>mdi-close</v-icon></span>
+            <button type="button" class="button is-rounded" style="margin-left: 40%; background-color: white; border: 0px;" :class="{ 'is-primary' : !isCameraOpen, 'is-danger' : isCameraOpen}" @click="toggleCamera">
+              <span v-if="!isCameraOpen" ><img style="height: 25px;" src="https://img.icons8.com/material-outlined/50/000000/camera--v2.png"></span>
+              <span v-else><img style="height: 25px;" src="https://img.icons8.com/material-outlined/50/000000/cancel.png"></span>
             </button>
           </div>
 
@@ -25,18 +24,17 @@
 
             <div class="camera-shutter" :class="{'flash' : isShotPhoto}"></div>
 
-            <video v-show="!isPhotoTaken" ref="camera" :width="190" :height="200" autoplay></video>
+            <video v-show="!isPhotoTaken" ref="camera" :width="190" :height="200" style="margin-top: -30px;" autoplay></video>
 
             <canvas v-show="isPhotoTaken" id="photoTaken" ref="canvas" :width="450" :height="337.5"></canvas>
           </div>
 
           <div v-if="isCameraOpen" class="camera-shoot" >
-            <button type="button" class="button" @click="takePhoto">
-              <img src="https://img.icons8.com/material-outlined/50/000000/camera--v2.png">
+            <button type="button" class="button" @click="takePhoto" id="cameraButtonToTakePhoto">
+              <img style="height: 25px;" src="https://img.icons8.com/material-outlined/50/000000/camera--v2.png">
             </button>
           </div>
         </div>
-      </v-flex>
       <div class="imageUploader" v-if="imageUploader">
         <div
             class="image-container position-relative text-center"
@@ -315,8 +313,6 @@ import 'vue-popperjs/dist/css/vue-popper.css'
 import VueImageLightboxCarousel from 'vue-image-lightbox-carousel'
 export default {
 
-  name: 'VueUploadMultipleImage',
-
   props: {
     dragText: {
       type: String,
@@ -548,7 +544,8 @@ export default {
       this.$emit('mark-is-primary', currentIndex, this.images)
     },
     deleteImage (currentIndex) {
-      this.$emit('before-remove', currentIndex, () => {
+      var r = confirm("Do you want to remove this image ?")
+      if (r == true) {
         if (this.images[currentIndex].default === 1) {
           this.images[0].default = 1
         }
@@ -557,7 +554,8 @@ export default {
         if (this.images.length) {
           this.images[0].highlight = 1
         }
-      }, this.images)
+      }
+
     },
     openGallery (index) {
       this.showLightbox = true
@@ -584,6 +582,7 @@ export default {
         this.isCameraOpen = false;
         this.isPhotoTaken = false;
         this.isShotPhoto = false;
+        this.imageUploader = true;
         this.stopCameraStream();
       } else {
         this.isCameraOpen = true;
@@ -628,10 +627,9 @@ export default {
       }
 
       this.isPhotoTaken = !this.isPhotoTaken;
-
       const context = this.$refs.canvas.getContext('2d');
       context.drawImage(this.$refs.camera, 0, 0, 450, 337.5);
-      const canvas = document.getElementById("photoTaken").toDataURL("image/jpeg")
+      const canvas = this.$refs.canvas.toDataURL("image/jpeg")
           .replace("image/jpeg", "image/octet-stream");
       let cameraPhotoDetails = {default:1,highlight:0,name:'myPhoto'+this.count+'.jpg',path:canvas}
       this.images[this.images.length] = cameraPhotoDetails
@@ -723,10 +721,23 @@ export default {
 }
 .photoUploadAndCamera {
   width: 190px;
-  height: 210px;
+  height: 215px;
   border: 1px dashed #d6d6d6;
   border-radius: 4px;
   background-color: #fff;
+}
+.camera-shoot {
+  margin-top: -25px;
+}
+#cameraButtonToTakePhoto{
+  margin-left: 40%;
+  background-color: white;
+  border: 0px;
+}
+@media (max-width: 770px) {
+  .web-camera-container {
+    display: none;
+  }
 }
 .image-center {
   width: 100%;

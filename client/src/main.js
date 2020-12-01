@@ -5,11 +5,6 @@ import './assets/css/bootstrap.css'
 import './assets/css/grails.css'
 import './assets/css/main.css'
 import vuetify from './plugins/vuetify';
-import wrap from '@vue/web-component-wrapper';
-import ElintegroMultipleImage from './components/ElintegroMultipleImage';
-const CustomElement = wrap(Vue, ElintegroMultipleImage);
-
-window.customElements.define('v-camera', CustomElement);
 
 
 Vue.config.productionTip = false;

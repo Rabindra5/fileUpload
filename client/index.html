@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="shortcut icon" href="./src/assets/images/favicon.ico">
     <title>Welcome to Grails & Vue</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div id="app">
-        <div id="my-strictly-unique-vue-upload-multiple-image" style="display: flex; justify-content: center;">
+        <div  style="display: flex; justify-content: center;">
             <v-camera
                     @upload-success="uploadImageSuccess"
-                    @before-remove="beforeRemove"
-                    @edit-image="editImage"
-                    :data-images= 'images'
-                    idUpload="myIdUpload"
-                    editUpload="myIdEdit"
-                    :maxImage=20
+                    id-upload="myIdUpload"
+                    edit-upload="myIdEdit"
+                    :max-image=20
                     capture = "camera"
-                    primaryText = ""
-                    browseText = "Browse picture(s)"
-                    dragText = "Drag pictures"
+                    primary-text = "Browse picture(s)"
+                    browse-text = "Browse picture(s)"
+                    drag-text = "Drag pictures"
+                    :multiple= true
+                    :show-edit=true
+                    :show-delete=true
+                    :show-add=true
             ></v-camera>
         </div>
     </div>
     <!-- built files will be auto injected -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.3.10/dist/vuetify.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -34,7 +37,7 @@
         new Vue({
             el: '#app',
             data: {
-                images: [],
+                imageList: [],
             },
             methods: {
                 uploadImageSuccess(formData, index, fileList) {
@@ -44,17 +47,6 @@
                     //   console.log(response)
                     // })
                 },
-                beforeRemove (index, done, fileList) {
-                    console.log('index', index, fileList)
-                    var r = confirm("remove image")
-                    if (r == true) {
-                        done()
-                    } else {
-                    }
-                },
-                editImage (formData, index, fileList) {
-                    console.log('edit data', formData, index, fileList)
-                }
             },
 
         });

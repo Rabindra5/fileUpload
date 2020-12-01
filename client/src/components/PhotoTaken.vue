@@ -2,19 +2,17 @@
 
 
 <div id="my-strictly-unique-vue-upload-multiple-image" style="display: flex; justify-content: center;">
-<v-camera
+<elintegro-multiple-image
     @upload-success="uploadImageSuccess"
-    @before-remove="beforeRemove"
-    @edit-image="editImage"
-    :data-images= 'images'
     idUpload="myIdUpload"
     editUpload="myIdEdit"
     :maxImage=20
     capture = "camera"
     primaryText = ""
     browseText = "Browse picture(s)"
+    :show-delete = true
     dragText = "Drag pictures"
-></v-camera>
+></elintegro-multiple-image>
 </div>
 </template>
 <style>
@@ -48,7 +46,7 @@ a {
 </style>
 
 <script>
-// import ElintegroMultipleImage from "@/components/ElintegroMultipleImage";
+import ElintegroMultipleImage from "@/components/ElintegroMultipleImage";
 export default {
 
   name: "PhotoTaken",
@@ -58,7 +56,7 @@ export default {
     }
   },
   components: {
-    // ElintegroMultipleImage
+    ElintegroMultipleImage
   },
   methods: {
     uploadImageSuccess(formData, index, fileList) {
@@ -68,17 +66,6 @@ export default {
       //   console.log(response)
       // })
     },
-    beforeRemove (index, done, fileList) {
-      console.log('index', index, fileList)
-      var r = confirm("remove image")
-      if (r == true) {
-        done()
-      } else {
-      }
-    },
-    editImage (formData, index, fileList) {
-      console.log('edit data', formData, index, fileList)
-    }
   },
 
 }
